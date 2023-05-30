@@ -473,12 +473,13 @@ header {
   color: #03071e;
   border-color: white;
 }
+
 .popular .heading {
   background-color: rgb(255, 255, 255);
   border-radius: 25px;
-  margin:0 35%;
+  margin: 0 35%;
   margin-bottom: 20px;
-  
+
 }
 
 .popular .box-container .box img {
@@ -564,12 +565,12 @@ header {
 
 }
 
-.gallery .heading{
-    background-color: rgb(255, 255, 255);
-    border-radius: 25px;
-    margin:0 35%;
-    margin-bottom: 20px;
-  
+.gallery .heading {
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  margin: 0 35%;
+  margin-bottom: 20px;
+
 }
 
 .flip-card {
@@ -715,6 +716,103 @@ header {
   padding: 1rem 0;
   font-weight: bolder;
 }
+
+/*--------------- review carosal start------------------------ */
+.review .container .row {
+  margin-left: 400px;
+}
+
+.review .card {
+  background-color: transparent;
+  width: 500px;
+  height: 280px;
+}
+
+.review .card .card-header {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+.review .card .card-header h1 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 14px 0;
+}
+
+.review .card .card-body {
+
+  margin-top: -30px;
+
+
+}
+
+.review .card .card-body i {
+  font-size: 20px;
+  color: rgb(173, 0, 0);
+  margin-top: -30px;
+
+
+}
+
+.review .card .card-body p {
+  font-size: 15px;
+  margin-top: 10px;
+  font-weight: 600;
+
+
+
+}
+
+#carosal-back {
+  background-color: lavender;
+  position: absolute;
+  opacity: 0.9;
+  z-index: -1000;
+}
+.carousel-control-prev a {
+  color: black;
+  background-color: black;
+
+}
+
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item>div {
+    display: none;
+  }
+
+  .carousel-inner .carousel-item>div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+
+  .carousel-inner .carousel-item-start.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
+
+
+/*--------------- review carosal end------------------------ */
 
 .order {
   background-image: url("/public/images/blake-wisz-Bf_ItbkEBjI-unsplash.jpg");
