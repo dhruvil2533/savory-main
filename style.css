@@ -718,9 +718,7 @@ header {
 }
 
 /*--------------- review carosal start------------------------ */
-.review .container .row {
-  margin-left: 400px;
-}
+
 
 .review .card {
   background-color: transparent;
@@ -770,10 +768,10 @@ header {
   opacity: 0.9;
   z-index: -1000;
 }
-.carousel-control-prev a {
-  color: black;
-  background-color: black;
-
+.carousel-control-prev a span {
+ color: black;
+  font-size: 30px;
+  font-weight: bold
 }
 
 @media (max-width: 767px) {
