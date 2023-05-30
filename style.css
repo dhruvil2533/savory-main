@@ -561,7 +561,7 @@ header {
 }
 
 .gallery {
-  background-image: url("./images/metal-texture-with-dust-scratches-cracks-textured-backgrounds.jpg");
+  background-image: url("./images/popular-backgound.jpg");
   background-size: cover;
 
 
@@ -581,6 +581,7 @@ header {
   height: 300px;
   perspective: 1000px;
   margin: 10px 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
 }
 
