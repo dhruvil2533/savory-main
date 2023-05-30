@@ -436,8 +436,10 @@ header {
   /* background-color: hsl(80, 53%, 55%); */
   /* background: rgb(241, 231, 13);
   background: linear-gradient(129deg, rgba(241, 231, 13, 1) 28%, rgba(247, 110, 5, 1) 100%); */
-  background-image: url("./images/pxfuel.jpg");
+  background-image: url("./images/popular-back.jpg");
   background-size: cover;
+
+
 }
 
 .popular .box-container {
