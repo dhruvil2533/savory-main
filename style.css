@@ -432,7 +432,7 @@ header {
   /* background-color: hsl(80, 53%, 55%); */
   /* background: rgb(241, 231, 13);
   background: linear-gradient(129deg, rgba(241, 231, 13, 1) 28%, rgba(247, 110, 5, 1) 100%); */
-  background-image: url("/public/images/pxfuel.jpg");
+  background-image: url("./images/pxfuel.jpg");
   background-size: cover;
 }
 .popular .heading{
@@ -547,7 +547,7 @@ header {
   padding: 1rem;
 }
 .gallery{
-  background-image: url("/public/images/metal-texture-with-dust-scratches-cracks-textured-backgrounds.jpg");
+  background-image: url("./images/metal-texture-with-dust-scratches-cracks-textured-backgrounds.jpg");
   background-size: cover;
   
   
@@ -626,7 +626,7 @@ header {
    */
   /* background: rgb(83, 241, 13);
   background: linear-gradient(4deg, rgba(83, 241, 13, 1) 2%, rgba(247, 200, 5, 1) 81%); */
-  background-image: url("/public/images/about-us.png");
+  background-image: url("./images/about-us.png");
   margin-top: 30px;
   /* height: 50px; */
   /* background-position: 0,0,0,100x; */
