@@ -18,6 +18,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.7.2/css/all.css"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 
 <body>
@@ -211,6 +212,7 @@
 
 				<a href="https://www.amazon.in/dp/B0B63SW9KK?ref=emc_p_m_5_i&th=1" class="btn">order now</a>
 			</div>
+			
 			<div class="box">
 				<!-- <span class="price"> Rs.50-100 </span> -->
 				<img src="images/42.png" alt="" />
@@ -222,6 +224,7 @@
 
 				<a href="https://www.amazon.in/dp/B0B63S5K4R/ref=emc_bcc_2_i?th=1" class="btn">order now</a>
 			</div>
+			
 			<div class="box">
 				<!-- <span class="price"> Rs.50-100 </span> -->
 
@@ -235,7 +238,7 @@
 				<a href="https://www.amazon.in/Savory-Chocolate-Hazelnut-Spread-Nutrients/dp/B0B6418C39"
 					class="btn">order now</a>
 			</div>
-			<div class="box">
+			<div class="box" id="last">
 				<!-- <span class="price"> Rs.50-100 </span> -->
 				<img src="images/44.png" alt="" />
 				<h3 class="prod-1">Peanut Butter</h3>
@@ -285,7 +288,7 @@
 	<section class="gallery" id="gallery">
 		<h1 class="heading">our food <span> Recepies </span></h1>
 
-		<div class="box-container">
+		<div class="box-container d-flex flex-wrap text-center justify-content-center">
 			<!-- <div class="box">
 				<img src="./images/13.png" alt="" />
 				<div class="content">
@@ -296,7 +299,7 @@
 			<div class="flip-card">
 				<div class="flip-card-inner">
 					<div class="flip-card-front">
-						<img src="images/13.png" alt="Avatar" style="width:300px;height:300px;">
+						<img src="/images/13.png" alt="Avatar" style="width:300px;height:300px;">
 					</div>
 					<div class="flip-card-back">
 						<h1>Ingredients</h1>
@@ -306,8 +309,8 @@
 							<li>14 medjool dates, pitted</li>
 							<li>200g raw or roasted almonds</li>
 				
-				<li style="color: red; font-size: larger;">
-					<a href="https://www.amazon.in/dp/B0B641NP3W?ref=emc_p_m_5_i&th=1" >4 tbsp savory peanut butter</a>
+							<li style="color: red; font-size: larger; font-weight: bold;">
+					<a href="https://www.amazon.in/dp/B0B641NP3W?ref=emc_p_m_5_i&th=1" class="text-danger " >4 tbsp savory peanut butter</a>
 				</li>
 							<li>1 tbsp cacao powder</li>
 							<li>1-2 tbsp water, if needed</li>
@@ -315,22 +318,47 @@
 						<a href="recepies1.html" class="btn">Check recepie</a>
 
 
+
+						
 					</div>
 				</div>
 			</div>
-
 			<div class="flip-card">
 				<div class="flip-card-inner">
 					<div class="flip-card-front">
-						<img src="images/15.png" alt="Avatar" style="width:300px;height:300px;">
+						<img src="/images/14.png" alt="Avatar" style="width:300px;height:300px;">
 					</div>
 					<div class="flip-card-back">
 						<h1>Ingredients</h1>
 						<!-- <p>Architect & Engineer</p>
 					<p>We love that guy</p> -->
 					<ul class="ingredients">
-						<li style="color: red; font-size: larger;">
-					<a href="https://www.amazon.in/dp/B0B641NP3W?ref=emc_p_m_5_i&th=1" >1/4 cup creamy peanut butter</a>
+						<li>1/2 cup butter, softened</li>
+						<li style="color: red; font-size: larger; font-weight: bold;">
+							<a href="https://www.amazon.in/dp/B0B641NP3W?ref=emc_p_m_5_i&th=1" class="text-danger " >1/4 cup savory peanut butter, softened</a>
+						</li>
+						<li>1-1/2 cups sugar</li>
+						<li>2 large eggs</li>
+						<li>2 cups all purpose flour</li>
+						<li>3 teaspoon baking powder</li>
+						<li>1 cup 2% milk</li>
+					</ul>
+						<a href="recepies6.html" class="btn">Check recepie</a>
+					</div>
+				</div>
+			</div>
+			<div class="flip-card">
+				<div class="flip-card-inner">
+					<div class="flip-card-front">
+						<img src="/images/15.png" alt="Avatar" style="width:300px;height:300px;">
+					</div>
+					<div class="flip-card-back">
+						<h1>Ingredients</h1>
+						<!-- <p>Architect & Engineer</p>
+					<p>We love that guy</p> -->
+					<ul class="ingredients">
+						<li style="color: red; font-size: larger; font-weight: bold;">
+					<a href="https://www.amazon.in/dp/B0B641NP3W?ref=emc_p_m_5_i&th=1" class="text-danger " >1/4 cup creamy peanut butter</a>
 				</li>
 						
 						<li>2 tablespoons honey</li>
@@ -343,56 +371,18 @@
 					</div>
 				</div>
 			</div>
-
-			<!-- <div class="box">
-				<img src="images/15.png" alt="" />
-				<div class="content">
-					<h3>Peanut Butter Oats Bowl</h3>
-					<a href="recepies2.html" class="btn">Check recepie</a>
-				</div>
-			</div> -->
 			<div class="flip-card">
 				<div class="flip-card-inner">
 					<div class="flip-card-front">
-						<img src="images/18.png" alt="Avatar" style="width:300px;height:300px;">
+						<img src="/images/16.png" alt="Avatar" style="width:300px;height:300px;">
 					</div>
 					<div class="flip-card-back">
 						<h1>Ingredients</h1>
 						<!-- <p>Architect & Engineer</p>
 					<p>We love that guy</p> -->
 					<ul class="ingredients">
-						<li style="color: red; font-size: larger;">
-							<a href="https://www.amazon.in/dp/B0B641NP3W?ref=emc_p_m_5_i&th=1" >1 tablespoon creamy peanut butter</a>
-						</li>
-						<li>1 slice crusty white bread</li>
-						<li>1/4 medium apple, thinly sliced</li>
-						<li>1 tablespoon golden raisins</li>
-						<li>Ground cinnamon</li>
-					</ul>
-						<a href="recepies3.html" class="btn">Check recepie</a>
-
-					</div>
-				</div>
-			</div>
-			<!-- <div class="box">
-				<img src="images/18.png" alt="" />
-				<div class="content">
-					<h3>Peanut Butter Apple Sandwich</h3>
-					<a href="recepies3.html" class="btn">Check recepie</a>
-				</div>
-			</div> -->
-			<div class="flip-card">
-				<div class="flip-card-inner">
-					<div class="flip-card-front">
-						<img src="images/16.png" alt="Avatar" style="width:300px;height:300px;">
-					</div>
-					<div class="flip-card-back">
-						<h1>Ingredients</h1>
-						<!-- <p>Architect & Engineer</p>
-					<p>We love that guy</p> -->
-					<ul class="ingredients">
-						<li style="color: red; font-size: larger;">
-							<a href="https://www.amazon.in/dp/B0B641NP3W?ref=emc_p_m_5_i&th=1" >1/2 cup Savory creamy peanut butter</a>
+						<li style="color: red; font-size: larger; font-weight: bold;">
+							<a href="https://www.amazon.in/dp/B0B641NP3W?ref=emc_p_m_5_i&th=1" class="text-danger " >1/2 cup Savory creamy peanut butter</a>
 						</li>
 						<li>1 cup milk</li>
 						<li>2 cups vanilla ice cream</li>
@@ -403,26 +393,18 @@
 					</div>
 				</div>
 			</div>
-
-			<!-- <div class="box">
-				<img src="images/16.png" alt="" />
-				<div class="content">
-					<h3>Peanut Butter Milk Shake</h3>
-					<a href="recepies4.html" class="btn">Check recepie</a>
-				</div>
-			</div> -->
 			<div class="flip-card">
 				<div class="flip-card-inner">
 					<div class="flip-card-front">
-						<img src="images/17.png" alt="Avatar" style="width:300px;height:300px;">
+						<img src="/images/17.png" alt="Avatar" style="width:300px;height:300px;">
 					</div>
 					<div class="flip-card-back">
 						<h1>Ingredients</h1>
 						<!-- <p>Architect & Engineer</p>
 					<p>We love that guy</p> -->
 					<ul class="ingredients">
-						<li style="color: red; font-size: larger;">
-							<a href="https://www.amazon.in/dp/B0B641NP3W?ref=emc_p_m_5_i&th=1" >1 tablespoon Savory creamy peanut butter</a>
+						<li style="color: red; font-size: larger; font-weight: bold;">
+							<a href="https://www.amazon.in/dp/B0B641NP3W?ref=emc_p_m_5_i&th=1"  class="text-danger ">1 tablespoon Savory creamy peanut butter</a>
 						</li>
 						<li>1 cup confectioners' sugar</li>
 						<li>1 tablespoon 2% milk</li>
@@ -435,49 +417,32 @@
 					</div>
 				</div>
 			</div>
-			<!-- <div class="box">
-				<img src="images/17.png" alt="" />
-				<div class="content">
-					<h3>Peanut Butter Fudge Cups</h3>
-					<a href="recepies5.html" class="btn">Check recepie</a>
-				</div>
-			</div> -->
 			<div class="flip-card">
 				<div class="flip-card-inner">
 					<div class="flip-card-front">
-						<img src="images/14.png" alt="Avatar" style="width:300px;height:300px;">
+						<img src="/images/18.png" alt="Avatar" style="width:300px;height:300px;">
 					</div>
 					<div class="flip-card-back">
 						<h1>Ingredients</h1>
 						<!-- <p>Architect & Engineer</p>
 					<p>We love that guy</p> -->
 					<ul class="ingredients">
-						<li>1/2 cup butter, softened</li>
-						<li style="color: red; font-size: larger;">
-							<a href="https://www.amazon.in/dp/B0B641NP3W?ref=emc_p_m_5_i&th=1" >1/4 cup savory peanut butter, softened</a>
+						<li style="color: red; font-size: larger; font-weight: bold;">
+							<a href="https://www.amazon.in/dp/B0B641NP3W?ref=emc_p_m_5_i&th=1" class="text-danger " >1 tablespoon creamy peanut butter</a>
 						</li>
-						<li>1-1/2 cups sugar</li>
-						<li>2 large eggs</li>
-						<li>2 cups all purpose flour</li>
-						<li>3 teaspoon baking powder</li>
-						<li>1 cup 2% milk</li>
+						<li>1 slice crusty white bread</li>
+						<li>1/4 medium apple, thinly sliced</li>
+						<li>1 tablespoon golden raisins</li>
+						<li>Ground cinnamon</li>
 					</ul>
-						<a href="recepies6.html" class="btn">Check recepie</a>
-
+						<a href="recepies3.html" class="btn">Check recepie</a>
 					</div>
 				</div>
 			</div>
-			<!-- <div class="box">
-				<img src="images/14.png" alt="" />
-				<div class="content">
-					<h3>Peanut Butter ‘N’ Jelly Cake</h3>
-					<a href="/recepies6.html" class="btn">Check recepie</a>
-				</div>
-			</div> -->
-			<div class="flip-card">
+			<div class="flip-card ">
 				<div class="flip-card-inner">
-					<div class="flip-card-front">
-						<img src="images/19.png" alt="Avatar" style="width:300px;height:300px;">
+					<div class="flip-card-front bg-white">
+						<img src="/images/19.png" alt="Avatar" style="width:300px;height:300px;">
 					</div>
 					<div class="flip-card-back">
 						<h1>Ingredients</h1>
@@ -485,38 +450,29 @@
 					<p>We love that guy</p> -->
 					<ul class="ingredients">
 						<li>12 large fresh strawberries</li>
-						<li style="color: red; font-size: larger;">
-							<a href="https://www.amazon.in/dp/B0B641NP3W?ref=emc_p_m_5_i&th=1" >Savory Chocolate Hazelnut Spread</a>
+						<li style="color: red; font-size: larger; font-weight: bold;">
+							<a href="https://www.amazon.in/dp/B0B641NP3W?ref=emc_p_m_5_i&th=1" class="text-danger " >Savory Chocolate Hazelnut Spread</a>
 						</li>
 						<li>1 cup milk chocolate chips, melted</li>
 						<li>1/4 cup crunchy  hazelnuts</li>
 						<li>Confectioners' sugar</li>
 					</ul>
 						<a href="recepies9.html" class="btn">Check recepie</a>
-
 					</div>
 				</div>
 			</div>
-
-			<!-- <div class="box">
-				<img src="images/19.png" alt="" />
-				<div class="content">
-					<h3>Hazelnut Spread Stuffed Strawberries</h3>
-					<a href="recepies9.html" class="btn">Check recepie</a>
-				</div>
-			</div> -->
-			<div class="flip-card">
+			<div class="flip-card ">
 				<div class="flip-card-inner">
-					<div class="flip-card-front">
-						<img src="images/20.png" alt="Avatar" style="width:300px;height:300px;">
+					<div class="flip-card-front bg-white">
+						<img src="/images/20.png" alt="Avatar" style="width:300px;height:300px;">
 					</div>
 					<div class="flip-card-back">
 						<h1>Ingredients</h1>
 						<!-- <p>Architect & Engineer</p>
 					<p>We love that guy</p> -->
 					<ul class="ingredients">
-						<li style="color: red; font-size: larger;">
-							<a href="https://www.amazon.in/dp/B0B641NP3W?ref=emc_p_m_5_i&th=1" >1/3 cup savory creamy biscuit spread</a>
+						<li style="color: red; font-size: larger; font-weight: bold;">
+							<a href="https://www.amazon.in/dp/B0B641NP3W?ref=emc_p_m_5_i&th=1" class="text-danger " >1/3 cup savory creamy biscuit spread</a>
 						</li>
 						<li>2 tbsp butter, softened</li>
 						<li>1/3 cup heavy whipping cream</li>
@@ -524,50 +480,32 @@
 						<li>20 Marie biscuits or Maria cookies</li>
 					</ul>
 						<a href="recepies7.html" class="btn">Check recepie</a>
-
 					</div>
 				</div>
 			</div>
-				<!-- </div>
-			<div class="box">
-				<img src="images/20.png" alt="" />
-				<div class="content">
-					<h3>Lazy Cake</h3>
-					<a href="recepies7.html" class="btn">Check recepie</a>
-				</div>
-			</div> -->
-				<div class="flip-card">
-					<div class="flip-card-inner">
-						<div class="flip-card-front">
-							<img src="images/21.png" alt="Avatar" style="width:300px;height:300px;">
-						</div>
-						<div class="flip-card-back">
-							<h1>Ingredients</h1>
+			<div class="flip-card ">
+				<div class="flip-card-inner">
+					<div class="flip-card-front bg-white">
+						<img src="/images/21.png" alt="Avatar" style="width:300px;height:300px;">
+					</div>
+					<div class="flip-card-back">
+						<h1>Ingredients</h1>
 							<!-- <p>Architect & Engineer</p>
 					<p>We love that guy</p> -->
 					<ul class="ingredients">
 						<li>1 package (8 ounces) cream cheese, softened</li>
 						<li>1 cup confectioners' sugar</li>
-						<li style="color: red; font-size: larger;">
-							<a href="https://www.amazon.in/dp/B0B641NP3W?ref=emc_p_m_5_i&th=1" >1-1/4 cups <span>Savory Hazelnut spread</span>, divided</a>
+						<li style="color: red; font-size: larger; font-weight: bold;">
+							<a href="https://www.amazon.in/dp/B0B641NP3W?ref=emc_p_m_5_i&th=1" class="text-danger ">1-1/4 cups <span>Savory Hazelnut spread</span>, divided</a>
 						</li>
 						<li>1 carton (8 ounces) frozen whipped topping, thawed</li>
 						<li>1 chocolate crumb crust (9 inches)</li>
 					</ul>
 							<a href="recepies8.html" class="btn">Check recepie</a>
-
-						</div>
 					</div>
 				</div>
-
-					<!-- <div class="box">
-						<img src="images/21.png" alt="" />
-						<div class="content">
-							<h3>Hazelnut Pie</h3>
-							<a href="recepies8.html" class="btn">Check recepie</a>
-						</div>
-					</div>
-				</div> -->
+			</div>
+		</div>
 	</section>
 
 
