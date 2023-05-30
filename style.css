@@ -201,7 +201,7 @@ header {
   /* background-color: var(--light-purple); */
   /* background: rgb(241, 231, 13);
   background: linear-gradient(180deg, rgba(241, 231, 13, 1) 45%, rgba(251, 112, 6, 1) 100%); */
-  background-image: url("/public/images/frame-harirak-pESI75iiZd4-unsplash.jpg");
+  background-image: url("./images/frame-harirak-pESI75iiZd4-unsplash.jpg");
   /* background-image: url("/public/images/pexels-pixabay-236834.jpg"); */
 
 }
