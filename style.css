@@ -120,7 +120,7 @@ header {
   padding: 1.7rem 9%;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   transition: all 0.5s;
-  position: fixed !important;
+
   z-index: 1000;
 }
 
@@ -147,8 +147,7 @@ header {
   width: 150px;
   height: 40px;
   display: block;
-  margin-top: -25px;
-  margin-bottom: -20px;
+
 }
 
 .header .logo i {
@@ -160,6 +159,7 @@ header {
   font-size: 2rem;
   margin-left: 2rem;
   color: var(--oragnge-light);
+
 }
 
 .header .navbar a:hover {
@@ -279,6 +279,9 @@ header {
 
 }
 
+
+
+
 .about-us {
   display: flex;
   flex-wrap: wrap;
@@ -345,6 +348,8 @@ header {
   /* background-color: moccasin; */
 
 }
+
+
 
 
 .prod-1 {
@@ -771,8 +776,9 @@ header {
   opacity: 0.9;
   z-index: -1000;
 }
+
 .carousel-control-prev a span {
- color: black;
+  color: black;
   font-size: 30px;
   font-weight: bold
 }
@@ -1005,13 +1011,14 @@ header {
   .popular .box-container .box {
     max-width: 100%;
   }
+
   .gallery {
 
     background-size: cover;
-  
-  
+
+
   }
-  
+
 
 
 
