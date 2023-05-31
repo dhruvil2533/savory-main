@@ -1,3 +1,5 @@
+
+
 let items = document.querySelectorAll('.carousel .carousel-item')
 
 items.forEach((el) => {
@@ -15,6 +17,9 @@ items.forEach((el) => {
 })
 
 
+
+
+
 let menu = document.querySelector('#menu-bar');
 let navbar = document.querySelector('.navbar');
 
@@ -24,6 +29,7 @@ menu.onclick = () =>{
   navbar.classList.toggle('active');
 
 }
+
 
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 var prevScrollpos = window.pageYOffset;

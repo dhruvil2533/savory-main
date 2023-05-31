@@ -3,88 +3,81 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-/* CSS for NavBar */
-#NavBar {
-  background-color: blue;
-  overflow: hidden;
-  position: sticky;
-  top: 0px;
+body{
+  margin:0;
+  padding:0;
+  font-family: "Roboto", sans-serif;
 }
-/* CSS for NavBar Anchor Tag i.e. Links  */
-#NavBar a {
-  color: white;
-  text-align: center;
-  padding: 15px;
-  float: left;
-  display: block;
+.header{
+  background-color:#607d8b;
+  padding:30px 0;
 }
-/* Sticky Class Designed to provide Sticky Property to the Navbar using JavaScript */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+.header h1{
+  font-size:60px;
+  color:#ffeb3b;
+  text-align:center;
 }
+
+.container{
+  max-width:1100px;
+  margin:0 auto;
+}
+
+/* Navbar */
+#nav-section{
+  background-color:#8bc34a;
+}
+#nav-section.fixed-nav{
+  position:fixed;
+  top:0;
+  width:100%;
+}
+ul.nav{
+  list-style-type:none;
+  padding-left:0;
+  margin:0;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+ul.nav li a{
+  padding:10px 15px;
+  text-decoration:none;
+  font-weight:500;
+  display:inline-block;
+  color:#fff;
+}
+
+
+.page-section{
+  height:130vh;
+  font-size:30px;
+  padding:100px 0;
+  text-align:center;
+}
+section#section1, section#section3{
+  background-color:#eee;
+}
+
 </style>
+
 </head>
 <body>
 
-  <div id="NavBar">
-    <a href="#section1">Section 1</a>
-    <a href="#section2">Section 2</a>
-    <a href="#section3">Section 3</a>
+  <div class="header">
+    <h1>LOGO</h1>
   </div>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eaque corrupti, ratione pariatur eveniet facilis rerum consectetur itaque explicabo fugit deserunt quas provident labore harum? Et itaque placeat fugiat suscipit?</p>
+  
+  <section class="page-section">
+    Home
+  </section>
 
+  <script>
+    let navbar = document.getElementById("nav-section");
+  let navOffset = navbar.offsetTop;
+  window.addEventListener("scroll", () => {
+    (window.scrollY >= navOffset) ? navbar.classList.add("fixed-nav") : navbar.classList.remove("fixed-nav")
+  });
+</script>
 </body>
 </html>
