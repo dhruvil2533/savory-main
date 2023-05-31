@@ -810,7 +810,18 @@ header {
   .carousel-inner .carousel-item>div:first-child {
     display: block;
   }
+  .gallery .heading {
+    
+    margin: 0 0%;
+  }
+  .popular .heading {
+
+    margin: 0 0%;
+ margin-bottom: 10px;
+  
+  }
 }
+
 
 .carousel-inner .carousel-item.active,
 .carousel-inner .carousel-item-next,
