@@ -637,6 +637,18 @@ header {
 
 
 
+
+
+.choise .container .row {
+  margin: 70px 0;
+
+}
+
+.choise .container .row .col img{
+  margin-top: -40px;
+}
+
+
 /* .gallery a {
   color: white;
 } */
