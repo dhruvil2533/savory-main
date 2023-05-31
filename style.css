@@ -779,22 +779,18 @@ header {
 
 
 
-#slider {
-  /*height: 350px;
-  overflow: hidden;
-  width: 100%;*/
-}
 
-.carousel-item {
+
+.media-coverages .carousel-item {
   height: 350px;
 }
 
-.carousel-indicators li {
+.media-coverages .carousel-indicators li {
   width: 10px;
   height: 10px;
   border-radius: 100%;
 }
-.carousel-indicators {
+.media-coverages .carousel-indicators {
   bottom: -50px;
 }
 
