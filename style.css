@@ -777,6 +777,27 @@ header {
   font-weight: bold
 }
 
+
+
+#slider {
+  /*height: 350px;
+  overflow: hidden;
+  width: 100%;*/
+}
+
+.carousel-item {
+  height: 350px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+.carousel-indicators {
+  bottom: -50px;
+}
+
 @media (max-width: 767px) {
   .carousel-inner .carousel-item>div {
     display: none;
@@ -1000,6 +1021,13 @@ header {
   .popular .box-container .box {
     max-width: 100%;
   }
+  .gallery {
+
+    background-size: cover;
+  
+  
+  }
+  
 
 
 
