@@ -822,13 +822,13 @@ header {
   height: 15rem;
 }
 
-.order .row form .btn {
+/* .order .row form .btn {
   background: none;
 }
 
 .order .row form .btn:hover {
   background: var(--red);
-}
+} */
 
 /* recepie */
 .home .content h2 {
