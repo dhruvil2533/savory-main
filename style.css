@@ -736,6 +736,21 @@ header {
   .choise .container .row .col {
     height: 180px;
   }
+  .footer .container .row{
+    display: flex;
+    flex-direction: column;
+  }
+  #footer_link{
+   text-align: left;
+  }
+  #footer_link .share {
+   
+    margin: 0px 10px;
+   
+  }
+  
+
+  
 
 
 }
@@ -881,12 +896,17 @@ header {
   align-items: center;
   justify-content: space-evenly;
 }
-
+#footer_link{
+  display: flex;
+  flex-direction: row;
+  margin: 30px 0;
+}
 .footer .share {
   display: flex;
   flex-direction: column;
+  margin: 0 50px;
   gap: 1.5rem;
-  justify-content: center;
+
   flex-wrap: wrap;
 }
 
@@ -1126,7 +1146,7 @@ header {
 
   margin-top: 30px;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 30px;
   color: rgb(0, 0, 0);
 
 }
