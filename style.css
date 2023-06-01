@@ -334,6 +334,8 @@ header {
   background-color: rgb(194, 194, 194);
   padding: 14px 0;
   border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
 }
 
 .nav_bar .container .row .col {
