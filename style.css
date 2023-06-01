@@ -652,6 +652,7 @@ header {
 .choise .container {
   max-width: 1200px;
   margin: 0 auto;
+  display: block;
 }
 
 .choise .row {
@@ -720,6 +721,18 @@ header {
   font-size: 30px;
   font-weight: bold
 }
+#carouselExample .carousel-inner{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px;
+ 
+}
+
+#carouselExample{
+  display: none;
+}
+#carouselExample span{
+  font-size: 15px;
+}
 
 
 
@@ -784,6 +797,18 @@ header {
   .media-coverages1 {
     display: block;
   }
+  #ingredients {
+  
+    display: none;
+  }
+  #carouselExample{
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
   
 
 
