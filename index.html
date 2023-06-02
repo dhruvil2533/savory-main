@@ -20,7 +20,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.7.2/css/all.css"></script>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
 
 
 </head>
@@ -601,7 +601,55 @@
 
 
 	<section id="Choise" class="choise">
-		<div class="container text-center">
+
+		<div id="carouselExample" class="carousel slide " data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"
+					aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"
+					aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"
+					aria-label="Slide 3"></button>
+				<button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3"
+					aria-label="Slide 4"></button>
+				<button type="button" data-bs-target="#carouselExample" data-bs-slide-to="4"
+					aria-label="Slide 5"></button>
+				<button type="button" data-bs-target="#carouselExample" data-bs-slide-to="5"
+					aria-label="Slide 6"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="./images/1-H.png" class="d-block" alt="...">
+					<span>No Artificial Preservatives</span>
+				</div>
+				<div class="carousel-item">
+					<img src="./images/2-H.png" class="d-block" alt="...">
+					<span>Made with 100% RO water</span>
+				</div>
+
+				<div class="carousel-item">
+					<img src="./images/3-H.png" class="d-block" alt="...">
+					<span>No Artificial Colors</span>
+				</div>
+				<div class="carousel-item">
+					<img src="./images/4-H.png" class="d-block" alt="...">
+					<span>Committed to high-quality standards</span>
+				</div>
+				<div class="carousel-item">
+					<img src="./images/5-H.png" class="d-block" alt="...">
+					<span>No artificial sweeteners</span>
+				</div>
+				<div class="carousel-item">
+					<img src="./images/6-H.png" class="d-block" alt="...">
+					<span>100% natural ingredients</span>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div class="container text-center" id="choise_container">
 			<div class="row" id="ingredients">
 				<div class="col1">
 					<img src="./images/1-H.png" alt=""> <br>
@@ -631,57 +679,48 @@
 			</div>
 		</div>
 
-		<div id="carouselExample" data-bs-ride="carousel" style="margin: 0 100px;">
 
-			<div class="carousel-inner">
-				<div class="carousel-item active ">
-					<div style="display: flex; flex-direction: column;">
-						<img src="./images/1-H.png" alt=""> <br>
-						<span>No Artificial Preservatives</span>
-
-					</div>
-
-				</div>
-				<div class="carousel-item">
-					<div style="display: flex; flex-direction:column;">
-						<img src="./images/2-H.png" alt=""> <br>
-					<span>Made with 100% RO water</span>
-
-					</div>
-				</div>
-				<div class="carousel-item">
-					<div style="display: flex; flex-direction:column;">
-						<img src="./images/3-H.png" alt=""> <br>
-					<span>No Artificial Colors</span>
-
-					</div>
-				</div>
-				<div class="carousel-item">
-					<div style="display: flex; flex-direction:column;">
-						<img src="./images/4-H.png" alt=""> <br>
-					<span>Committed to high-quality standards</span>
-
-					</div>
-				</div>
-				<div class="carousel-item">
-					<div style="display: flex; flex-direction:column;">
-						<img src="./images/5-H.png" alt=""> <br>
-						<span>No artificial sweeteners</span>
-
-					</div>
-				</div>
-				<div class="carousel-item">
-					<div style="display: flex; flex-direction:column;">
-						<img src="./images/6-H.png" alt=""> <br>
-					<span>100% natural ingredients</span>
-
-					</div>
-				</div>
-
-
+		<!-- <div id="carouselExample"  data-bs-ride="carousel">
+			<div class="carousel-indicators">
+			  <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="border: 2px solid red;"></button>
+			  <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2" style="border: 2px solid red;"></button>
+			  <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3" style="border: 2px solid red;"></button>
 			</div>
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<div style="display: flex; flex-direction:column;">
+					<img src="./images/1-H.png" alt=""> <br>
+					<span>No artificial sweeteners</span>
 
-		</div>
+				</div>
+			  </div>
+			  <div class="carousel-item">
+				<div style="display: flex; flex-direction:column;">
+					<img src="./images/2-H.png" alt=""> <br>
+					<span>No artificial sweeteners</span>
+
+				</div>
+			  </div>
+			  <div class="carousel-item">
+				<div style="display: flex; flex-direction:column;">
+					<img src="./images/3-H.png" alt=""> <br>
+					<span>No artificial sweeteners</span>
+
+				</div>
+			  </div>
+			 
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Next</span>
+			</button>
+		  </div> -->
+
+
 
 
 	</section>
@@ -702,50 +741,21 @@
 	<section class="review">
 		<h2 class="heading">Real ingredients, real reviews</h2>
 
-
-
-
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<h2>Delicious &#128523; &#128525;</h2>
-					<p>I've tried a lot of peanut butter. This is my first time trying the "all-natural" variety,
-						and it
-						feels great on my stomach afterward. Other peanut butter with sugars, salts, and
-						hydrogenated
-						oils typically leave a harsh aftertaste. This one has no flavor, yet it's great for dieters
-						and
-						high-intensity workouts.</p>
-					<!-- <h3>Sheetla Mata Trading Company</h3> -->
-					<h3>Sheetla M. T. Company..</h3>
-				</div>
-				<div class="col">
-					<h2>I love natural Mills </h2>
-
-					<p>savory all natural peanut butter is the best producer of peanut butter ive used so far.
-
-						Tastes good and crunchy crisps of peanuts are present in the mixture which gives a good quality
-						feel upon consumption.
-
-						Also the product is a great value for money.</p>
-					<h3>Flipkart Customers..</h3>
-				</div>
-				<div class="col">
-					<h2>Good For Health</h2>
-					<p>Good taste &#128523;&#128523; , pure and heavy protein..
-
-						Fast delevery and healthy in protein..
-
-						I truely trust on savory good service and purity is best...
-
-						Thnq for this service we appricate you for it ......keep control on fack peanutbutter</p>
-					<h3>Flipkart Customers..</h3>
-				</div>
-			</div>
-		</div>
-
-
 		<div id="carouselExampleIndicators" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="carouselExampleIndicators" data-bs-slide-to="0" class="active"
+					aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="carouselExampleIndicators" data-bs-slide-to="1"
+					aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="carouselExampleIndicators" data-bs-slide-to="2"
+					aria-label="Slide 3"></button>
+				<button type="button" data-bs-target="carouselExampleIndicators" data-bs-slide-to="3"
+					aria-label="Slide 4"></button>
+				<button type="button" data-bs-target="carouselExampleIndicators" data-bs-slide-to="4"
+					aria-label="Slide 5"></button>
+				<button type="button" data-bs-target="carouselExampleIndicators" data-bs-slide-to="5"
+					aria-label="Slide 6"></button>
+			</div>
 
 			<div class="carousel-inner">
 				<div class="carousel-item active ">
@@ -797,6 +807,49 @@
 			</div>
 
 		</div>
+
+
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2>Delicious &#128523; &#128525;</h2>
+					<p>I've tried a lot of peanut butter. This is my first time trying the "all-natural" variety,
+						and it
+						feels great on my stomach afterward. Other peanut butter with sugars, salts, and
+						hydrogenated
+						oils typically leave a harsh aftertaste. This one has no flavor, yet it's great for dieters
+						and
+						high-intensity workouts.</p>
+					<!-- <h3>Sheetla Mata Trading Company</h3> -->
+					<h3>Sheetla M. T. Company..</h3>
+				</div>
+				<div class="col">
+					<h2>I love natural Mills </h2>
+
+					<p>savory all natural peanut butter is the best producer of peanut butter ive used so far.
+
+						Tastes good and crunchy crisps of peanuts are present in the mixture which gives a good quality
+						feel upon consumption.
+
+						Also the product is a great value for money.</p>
+					<h3>Flipkart Customers..</h3>
+				</div>
+				<div class="col">
+					<h2>Good For Health</h2>
+					<p>Good taste &#128523;&#128523; , pure and heavy protein..
+
+						Fast delevery and healthy in protein..
+
+						I truely trust on savory good service and purity is best...
+
+						Thnq for this service we appricate you for it ......keep control on fack peanutbutter</p>
+					<h3>Flipkart Customers..</h3>
+				</div>
+			</div>
+		</div>
+
+
+		
 
 		<!-- <div class="swiper mySwiper">
 			<div class="swiper-wrapper">
@@ -1156,7 +1209,6 @@
 	</div>
 
 	<!-- custom js file link  -->
-	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
 	<script src="script.js"></script>
 	<script src="https://code.jquery.com/jquery-3.6.3.min.js"
@@ -1168,72 +1220,72 @@
 	<script>
 
 
-		$(document).ready(function () {
+		// $(document).ready(function () {
 
-			$('.owl-carousel').owlCarousel({
-				mouseDrag: false,
-				loop: true,
-				margin: 2,
-				nav: true,
-				responsive: {
-					0: {
-						items: 1
-					},
-					600: {
-						items: 1
-					},
-					1000: {
-						items: 3
-					}
-				}
-			});
+		// 	$('.owl-carousel').owlCarousel({
+		// 		mouseDrag: false,
+		// 		loop: true,
+		// 		margin: 2,
+		// 		nav: true,
+		// 		responsive: {
+		// 			0: {
+		// 				items: 1
+		// 			},
+		// 			600: {
+		// 				items: 1
+		// 			},
+		// 			1000: {
+		// 				items: 3
+		// 			}
+		// 		}
+		// 	});
 
 
 
-			$('.owl-prev').click(function () {
-				$active = $('.owl-item .item.show');
-				$('.owl-item .item.show').removeClass('show');
-				$('.owl-item .item').removeClass('next');
-				$('.owl-item .item').removeClass('prev');
-				$active.addClass('next');
-				if ($active.is('.first')) {
-					$('.owl-item .last').addClass('show');
-					$('.first').addClass('next');
-					$('.owl-item .last').parent().prev().children('.item').addClass('prev');
-				}
-				else {
-					$active.parent().prev().children('.item').addClass('show');
-					if ($active.parent().prev().children('.item').is('.first')) {
-						$('.owl-item .last').addClass('prev');
-					}
-					else {
-						$('.owl-item .show').parent().prev().children('.item').addClass('prev');
-					}
-				}
-			});
+		// 	$('.owl-prev').click(function () {
+		// 		$active = $('.owl-item .item.show');
+		// 		$('.owl-item .item.show').removeClass('show');
+		// 		$('.owl-item .item').removeClass('next');
+		// 		$('.owl-item .item').removeClass('prev');
+		// 		$active.addClass('next');
+		// 		if ($active.is('.first')) {
+		// 			$('.owl-item .last').addClass('show');
+		// 			$('.first').addClass('next');
+		// 			$('.owl-item .last').parent().prev().children('.item').addClass('prev');
+		// 		}
+		// 		else {
+		// 			$active.parent().prev().children('.item').addClass('show');
+		// 			if ($active.parent().prev().children('.item').is('.first')) {
+		// 				$('.owl-item .last').addClass('prev');
+		// 			}
+		// 			else {
+		// 				$('.owl-item .show').parent().prev().children('.item').addClass('prev');
+		// 			}
+		// 		}
+		// 	});
 
-			$('.owl-next').click(function () {
-				$active = $('.owl-item .item.show');
-				$('.owl-item .item.show').removeClass('show');
-				$('.owl-item .item').removeClass('next');
-				$('.owl-item .item').removeClass('prev');
-				$active.addClass('prev');
-				if ($active.is('.last')) {
-					$('.owl-item .first').addClass('show');
-					$('.owl-item .first').parent().next().children('.item').addClass('prev');
-				}
-				else {
-					$active.parent().next().children('.item').addClass('show');
-					if ($active.parent().next().children('.item').is('.last')) {
-						$('.owl-item .first').addClass('next');
-					}
-					else {
-						$('.owl-item .show').parent().next().children('.item').addClass('next');
-					}
-				}
-			});
+		// 	$('.owl-next').click(function () {
+		// 		$active = $('.owl-item .item.show');
+		// 		$('.owl-item .item.show').removeClass('show');
+		// 		$('.owl-item .item').removeClass('next');
+		// 		$('.owl-item .item').removeClass('prev');
+		// 		$active.addClass('prev');
+		// 		if ($active.is('.last')) {
+		// 			$('.owl-item .first').addClass('show');
+		// 			$('.owl-item .first').parent().next().children('.item').addClass('prev');
+		// 		}
+		// 		else {
+		// 			$active.parent().next().children('.item').addClass('show');
+		// 			if ($active.parent().next().children('.item').is('.last')) {
+		// 				$('.owl-item .first').addClass('next');
+		// 			}
+		// 			else {
+		// 				$('.owl-item .show').parent().next().children('.item').addClass('next');
+		// 			}
+		// 		}
+		// 	});
 
-		});
+		// });
 
 		$(".flip-card").click(function () {
 			window.location = $(this).find(".rec").attr("href");
