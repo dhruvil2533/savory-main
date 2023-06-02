@@ -372,6 +372,10 @@ header {
 .prod-5 {
   color: var(--sky-blue);
 }
+/* .speciality{
+  background: url(./images/savory.jpg);
+  background-size: cover;
+} */
 
 .speciality .box-container {
   display: flex;
@@ -444,7 +448,7 @@ header {
   background: linear-gradient(129deg, rgba(241, 231, 13, 1) 28%, rgba(247, 110, 5, 1) 100%); */
   background-image: url("./images/popular-back.jpg");
   background-size: cover;
-  background-position: 50%;
+
 
 
 }
@@ -822,10 +826,6 @@ header {
 
   }
 
-  .popular {
-    background-image: url("./images/popular-back1.jpg");
-    background-position: 40%;
-  }
 
 
 
