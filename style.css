@@ -446,11 +446,9 @@ header {
   /* background-color: hsl(80, 53%, 55%); */
   /* background: rgb(241, 231, 13);
   background: linear-gradient(129deg, rgba(241, 231, 13, 1) 28%, rgba(247, 110, 5, 1) 100%); */
-  background-image: url("./images/popular-back.jpg");
+  background-image: url("./images/popular-back.jpg") ;
+  background-repeat: no-repeat;
   background-size: cover;
-
-
-
 }
 
 .popular .box-container {
@@ -572,7 +570,7 @@ header {
 }
 
 .gallery {
-  background-image: url("./images/popular-backgound.jpg");
+  background-image: url("./images/istockphoto-1467684983-2048x2048-transformed.jpeg");
   background-size: cover;
 
 
@@ -889,6 +887,20 @@ header {
     mix-blend-mode: color-burn;
   }
   */
+  .popular {
+    /* background-color: hsl(80, 53%, 55%); */
+    /* background: rgb(241, 231, 13);
+    background: linear-gradient(129deg, rgba(241, 231, 13, 1) 28%, rgba(247, 110, 5, 1) 100%); */
+    background-image: url("./images/nasia-m-qkjSHycXQ4Q-unsplash.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .popular .heading {
+    background-color: rgb(161, 161, 161);
+    color: rgb(0, 0, 0);
+ 
+  
+  }
 
 
 
