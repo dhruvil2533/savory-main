@@ -372,6 +372,7 @@ header {
 .prod-5 {
   color: var(--sky-blue);
 }
+
 /* .speciality{
   background: url(./images/savory.jpg);
   background-size: cover;
@@ -446,7 +447,7 @@ header {
   /* background-color: hsl(80, 53%, 55%); */
   /* background: rgb(241, 231, 13);
   background: linear-gradient(129deg, rgba(241, 231, 13, 1) 28%, rgba(247, 110, 5, 1) 100%); */
-  background-image: url("./images/popular-back.jpg") ;
+  background-image: url("./images/popular-back.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -760,7 +761,7 @@ header {
   display: none;
 }
 
- .float{
+.float {
   font-size: 30px;
   margin: 20px;
   background-color: greenyellow;
@@ -771,7 +772,13 @@ header {
   bottom: 0%;
   right: 0;
   color: black;
+  transform: translateY(0px);
 }
+
+.float:hover {
+  transform: translateY(-10px);
+}
+
 
 
 
@@ -902,15 +909,16 @@ header {
     /* background-color: hsl(80, 53%, 55%); */
     /* background: rgb(241, 231, 13);
     background: linear-gradient(129deg, rgba(241, 231, 13, 1) 28%, rgba(247, 110, 5, 1) 100%); */
-    background-image: url("./images/nasia-m-qkjSHycXQ4Q-unsplash.jpg") ;
+    background-image: url("./images/nasia-m-qkjSHycXQ4Q-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
+
   .popular .heading {
     background-color: rgb(161, 161, 161);
     color: rgb(0, 0, 0);
- 
-  
+
+
   }
 
 
@@ -1155,7 +1163,7 @@ header {
   background-color: rgb(0, 0, 0);
 }
 
-#carouselExampleIndicators .carousel-inner .carousel-item{
+#carouselExampleIndicators .carousel-inner .carousel-item {
   height: 300px;
 }
 
