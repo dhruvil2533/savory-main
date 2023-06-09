@@ -742,7 +742,91 @@
 	<section class="review">
 		<h2 class="heading">Real ingredients, real reviews</h2>
 
-		<div id="carouselExampleIndicators" data-bs-ride="carousel">
+		<div class="container" id="featureContainer">
+			<div class="row mx-auto my-auto justify-content-center ">
+			  <div id="featureCarousel" class="carousel slide" data-bs-ride="carousel">
+				
+				<div class=" buttons pe-md-4 ">
+				  <a class="indicator" href="#featureCarousel" role="button" data-bs-slide="prev">
+					<span  class="bi bi-chevron-left"></span>
+				  </a> &nbsp;&nbsp;
+				  <a class="w-auto indicator" href="#featureCarousel" role="button" data-bs-slide="next">
+					<span  class="bi bi-chevron-right"></span>
+				  </a>
+				</div>
+				
+				<div class="carousel-inner" role="listbox">
+				  <div class="carousel-item active">
+					<div class="col-md-3">
+					  <div class="card">
+						<div class="card-img text-center ">
+							<h2>Delicious &#128523; &#128525;</h2>
+							<p>I've tried a lot of peanut butter. This is my first time trying the "all-natural" variety,
+								and it
+								feels great on my stomach afterward. Other peanut butter with sugars, salts, and
+								hydrogenated
+								oils typically leave a harsh aftertaste. This one has no flavor, yet it's great for dieters
+								and
+								high-intensity workouts.</p>
+							
+							<h3>Sheetla M. T. Company..</h3>
+						</div>
+					  
+					  </div>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<div class="col-md-3">
+					  <div class="card">
+						<div class="card-img text-center ">
+							<h2>I love natural Mills</h2>
+
+							<p>savory all natural peanut butter is the best producer of peanut butter ive used so far.
+	
+								Tastes good and crunchy crisps of peanuts are present in the mixture which gives a good
+								quality
+								feel upon consumption.
+	
+								Also the product is a great value for money.</p>
+							<h3>Flipkart Customers..</h3>
+						 
+						</div>
+					   
+					  </div>
+					</div>
+				  </div>
+				  <div class="carousel-item">
+					<div class="col-md-3">
+					  <div class="card">
+						<div class="card-img text-center ">
+						  
+							<h2>Good For Health</h2>
+							<p>Good taste &#128523;&#128523; , pure and heavy protein..
+
+								Fast delevery and healthy in protein..
+		
+								I truely trust on savory good service and purity is best...
+		
+								Thnq for this service we appricate you for it ......keep control on fack peanutbutter</p>
+							<h3>Flipkart Customers..</h3>
+						 
+						
+
+						  
+						</div>
+					   
+					  </div>
+					</div>
+				  </div>
+				  
+				
+				</div>
+			  </div>
+			</div>
+		  </div>
+	
+
+		<!-- <div id="carouselExampleIndicators" data-bs-ride="carousel">
 			<div class="carousel-indicators">
 				<button type="button" data-bs-target="carouselExampleIndicators" data-bs-slide-to="0" class="active"
 					aria-current="true" aria-label="Slide 1"></button>
@@ -764,7 +848,7 @@
 							oils typically leave a harsh aftertaste. This one has no flavor, yet it's great for dieters
 							and
 							high-intensity workouts.</p>
-						<!-- <h3>Sheetla Mata Trading Company</h3> -->
+						<h3>Sheetla Mata Trading Company</h3>
 						<h3>Sheetla M. T. Company..</h3>
 
 					</div>
@@ -802,10 +886,10 @@
 
 			</div>
 
-		</div>
+		</div> -->
 
 
-		<div class="container">
+		<!-- <div class="container">
 			<div class="row">
 				<div class="col">
 					<h2>Delicious &#128523; &#128525;</h2>
@@ -816,7 +900,7 @@
 						oils typically leave a harsh aftertaste. This one has no flavor, yet it's great for dieters
 						and
 						high-intensity workouts.</p>
-					<!-- <h3>Sheetla Mata Trading Company</h3> -->
+					<h3>Sheetla Mata Trading Company</h3>
 					<h3>Sheetla M. T. Company..</h3>
 				</div>
 				<div class="col">
@@ -842,7 +926,7 @@
 					<h3>Flipkart Customers..</h3>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 
 		
@@ -1215,7 +1299,20 @@
 		crossorigin="anonymous"></script>
 
 	<script>
-
+		let myCarousel = document.querySelectorAll('#featureContainer .carousel .carousel-item');
+myCarousel.forEach((el) => {
+  const minPerSlide = 4
+  let next = el.nextElementSibling
+  for (var i=1; i<minPerSlide; i++) {
+    if (!next) {
+      // wrap carousel by using first child
+      next = myCarousel[0]
+    }
+    let cloneChild = next.cloneNode(true)
+    el.appendChild(cloneChild.children[0])
+    next = next.nextElementSibling
+  }
+})
 
 		// $(document).ready(function () {
 
