@@ -1107,7 +1107,7 @@ header {
   color: var(--orange);
 }
 
-#scroll-top {
+#scroll-top.active {
   /* display:; */
   position: fixed;
   bottom: 0;
@@ -1122,9 +1122,9 @@ header {
   z-index: 1000;
 }
 
-#scroll-top.active {
+/* #scroll-top.active {
   bottom: calc(100% - 12rem);
-}
+} */
 
 .loader-container {
   position: fixed;
@@ -1539,6 +1539,9 @@ header {
     
    
    } */
+   .attach{
+  display: none;
+  }
 
 }
 #featureContainer .carousel-inner .carousel-item-end,
@@ -1630,4 +1633,14 @@ font-weight: 800;
 #featureContainer .card p {
 padding: 0px 10px;
 font-size: 15px;
+}
+
+
+.attach{
+  background-image: url("./images/savory.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 50vh;
+  width: 100%;
 }

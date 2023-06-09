@@ -13,36 +13,126 @@
 
 		<!-- custom css file link  -->
 		<link rel="stylesheet" href="style.css" />
+
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+		<link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
+		<script src="bower_components/aos/dist/aos.js"></script>
+
 	</head>
 	<body>
 		<!-- header section starts  -->
 		<style>
-			.home{
-				background-color: #e4e99a;
+			.home {
+			background-color: burlywood;
+		}
+
+		.recepie {
+			background-color: burlywood;
+			
+		}
+
+		.recepie div{
+			border: 1px solid black;
+			margin-right: 50%;
+			border-radius: 10px;
+			padding: 2%;
+		}
+
+		.recepie a img{
+			max-width: 30%;
+			margin-left: 80%;
+			margin-top: -20%;
+		}
+
+		@media ( max-width : 400px){
+			#text1{
+				padding-left: 6%;
+				margin: 1%;
+				width: 100%;
 			}
 
-			.recepie{
-				background-color: #e4e99a;
-			}
+			.recepie a img{
+			max-width: 100%;
+			margin-left: -0.1%;
+			margin-top: -10%;
+		}
+		}
+
+
+		/* .navbar a {
+			font-size: 2rem;
+			margin-left: 2rem;
+			color: var(--oragnge-light);
+		}
+
+		 .navbar a:hover {
+			display: inline-block;
+			padding: 0.8rem 3rem;
+			border: 0.2rem solid var(--orange);
+			background-color: var(--orange);
+			color: var(--white);
+			cursor: pointer;
+			border-radius: 0.5rem;
+			position: relative;
+		overflow: hidden; 
+		z-index: 1;
+		}  */
+
+		.navbar-brand img {
+			width: 150px;
+			height: 40px;
+		}
+		.navbar {
+			display: flex;
+			justify-content: space-between;
+			background-color: white;
+			
+		}
+		.navbar div{
+			margin: 1% 10%;
+		}
+		.navbar .navbar-nav a{
+			font-size: 18px;
+			color: black;
+		}
+		.ingredients li{
+			list-style: none;
+		}
+		#home .image{
+			background-color: transparent;
+		}
+	
+		#home .image img{
+			transform: rotate(-10deg);
+		}
+		#home .image img{
+			transform: rotate(-10deg);
+			width: 60%;
+			margin-left: 15%;
+			margin-top: 10%;
+			
+		}
 		</style>
 		<!-- <header id="nav" class="header">
-			<a href="./index.html"><img src="./images/logo.png" class="logo" alt="" /></a>
+			<a href="./index.html"><img src="./images/logo.png" class="logo" alt="" /></a> -->
 
-			<div id="menu-bar" class="fas fa-bars"></div>
+		 <div id="menu-bar"></div>
 
-			<nav class="navbar">
+			<!-- <nav class="navbar">
 				<a href="./index.html#home">Home</a>
 				<a href="./index.html#speciality">Speciality</a>
 				<a href="./index.html#popular">Shop</a>
 				<a href="./index.html#gallery">Recepies</a>
 				<a href="./index.html#review">About Us</a>
 				<a href="./index.html#order">Contact Us</a>
-			</nav>
+			</nav> -->
 			
-		</header> -->
+		</header> 
 
 		<!-- header section ends -->
-		<header class="parent-header">
+		<!-- <header class="parent-header"> -->
 			<!-- <div class="master-nav">
 				<ul>
 					<li>f</li>
@@ -54,7 +144,7 @@
 					<li>number</li>
 				</ul>
 			</div> -->
-			<div class="header" id="nav">
+			<!-- <div class="header" id="nav">
 				<a href="#"><img src="./images/logo.png" class="logo" alt="" /></a>
 	
 				<div id="menu-bar" class="fas fa-bars"></div>
@@ -63,13 +153,25 @@
 					<a href="#home">home</a>
 					<a href="#speciality">speciality</a>
 					<a href="#popular">Shop</a>
-					<a href="#gallery">Recepies</a>
+					<a href="#gallery">Recepies</a> -->
 					<!-- <a href="#review">About Us</a>
 					<a href="#contact">Contact Us</a> -->
-				</nav>
+				<!-- </nav>
 			</div>
 	
-		</header>
+		</header> -->
+
+
+		<nav class="navbar navbar-expand-lg ">
+			<div class="container-fluid">
+				
+					<a class="navbar-brand" href="index.html"><img src="./images/logo.png" alt=""></a>
+				
+				</div>
+				
+			
+		</nav>
+	
 
 		<!-- home section starts  -->
 
@@ -80,13 +182,13 @@
 					Ingredients:
                 </h2>
                 <ul class="ingredients">
-                    <li>1 tablespoon creamy peanut butter</li>
+                    <li style="color: rgb(54, 4, 100); font-size: 20px"><b> 1 tablespoon Creamy Peanut Butter</b></li>
                     <li>1 slice crusty white bread</li>
                     <li>1/4 medium apple, thinly sliced</li>
                     <li>1 tablespoon golden raisins</li>
 					<li>Ground cinnamon</li>
                 </ul>
-				<div class="all-dtls-prt">
+				<!-- <div class="all-dtls-prt">
 					<ul>
 						<li><em class="fa fa-clock-o" aria-hidden="true"></em> Prep Time: <span>
 								<meta itemprop="prepTime" content="PT5M">5 mins.
@@ -97,23 +199,31 @@
 						<li>Total Time: <span>10 mins. </span></li>
 						<li>Yield: <span itemprop="recipeYield">10-12 pancakes</span></li>
 					</ul>
-				</div>
+				</div> -->
 			</div>
 
 			<div class="image">
-				<img src="images/18.png" alt="image not found" />
+				<img src="images/18-1.png" alt="image not found" />
 			</div>
 		</section>
 
 
         <!-- recepie -->
         <section class="recepie">
-            <h2>Method</h2>
-            <ol class="method">
-                <li>Spread peanut butter over bread. Top with apple and raisins.</li>
-                <li>Sprinkle with cinnamon.</li>
-				<li>Enjoy your Sandwich</li>
-            </ol>
+			<div id="text1">
+				<h2>Method</h2>
+				<ol class="method">
+					<li>Spread peanut butter over bread. Top with apple and raisins.</li>
+					<li>Sprinkle with cinnamon.</li>
+					<li>Enjoy your Sandwich</li>
+				</ol>
+				
+			</div>
+			<a id="a1" href="#">
+				<img src="images/42.png" alt="" id="i1">
+			</a>
+
+			
 		<section class="sectional-padding"></section>
 
         </section>

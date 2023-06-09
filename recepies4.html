@@ -13,20 +13,79 @@
 
 		<!-- custom css file link  -->
 		<link rel="stylesheet" href="style.css" />
+
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+		<link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
+		<script src="bower_components/aos/dist/aos.js"></script>
 	</head>
 	<body>
 		<!-- header section starts  -->
 
 		<style>
-			.home{
-				background-color: #fbf4ee;
-				background-image: url("images/biscoff-vegan-nutella-peanut-butter-milkshake-01.webp");
-				background-size:contain;
-			}
+				.home {
+			background-color: burlywood;
+		}
 
-			.recepie{
-				background-color: #fbf4ee;
-			}
+		.recepie {
+			background-color: burlywood;
+		}
+
+
+		/* .navbar a {
+			font-size: 2rem;
+			margin-left: 2rem;
+			color: var(--oragnge-light);
+		}
+
+		 .navbar a:hover {
+			display: inline-block;
+			padding: 0.8rem 3rem;
+			border: 0.2rem solid var(--orange);
+			background-color: var(--orange);
+			color: var(--white);
+			cursor: pointer;
+			border-radius: 0.5rem;
+			position: relative;
+		overflow: hidden; 
+		z-index: 1;
+		}  */
+
+		.navbar-brand img {
+			width: 150px;
+			height: 40px;
+		}
+		.navbar {
+			display: flex;
+			justify-content: space-between;
+			background-color: white;
+			
+		}
+		.navbar div{
+			margin: 1% 10%;
+		}
+		.navbar .navbar-nav a{
+			font-size: 18px;
+			color: black;
+		}
+		.ingredients li{
+			list-style: none;
+		}
+		#home .image{
+			background-color: transparent;
+		}
+	
+		#home .image img{
+			transform: rotate(-10deg);
+		}
+		#home .image img{
+			transform: rotate(-10deg);
+			width: 60%;
+			margin-left: 15%;
+			margin-top: 10%;
+			
+		}
 		</style>
 		<!-- <header id="nav">
 			<a href="./index.html"><img src="./images/logo.png" class="logo" alt="" /></a>
@@ -44,7 +103,7 @@
 		</header> -->
 
 		<!-- header section ends -->
-		<header class="parent-header">
+		<!-- <header class="parent-header"> -->
 			<!-- <div class="master-nav">
 				<ul>
 					<li>f</li>
@@ -56,24 +115,35 @@
 					<li>number</li>
 				</ul>
 			</div> -->
-			<div class="header" id="nav">
-				<a href="#"><img src="./images/logo.png" class="logo" alt="" /></a>
+			<!-- <div class="header" id="nav">
+				<a href="#"><img src="./images/logo.png" class="logo" alt="" /></a> -->
 	
-				<div id="menu-bar" class="fas fa-bars"></div>
+				<div id="menu-bar"></div>
 	
-				<nav class="navbar">
+				<!-- <nav class="navbar">
 					<a href="#home">home</a>
 					<a href="#speciality">speciality</a>
 					<a href="#popular">Shop</a>
-					<a href="#gallery">Recepies</a>
+					<a href="#gallery">Recepies</a> --> 
 					<!-- <a href="#review">About Us</a>
 					<a href="#contact">Contact Us</a> -->
-				</nav>
+				 <!-- </nav>
 			</div>
 	
-		</header>
+		</header> -->
 
-		<!-- home section starts  -->
+		
+		<nav class="navbar navbar-expand-lg ">
+			<div class="container-fluid">
+				
+					<a class="navbar-brand" href="index.html"><img src="./images/logo.png" alt=""></a>
+				
+				</div>
+				
+			
+		</nav>
+
+	 <!-- home section starts   -->
 
 		<section class="home" id="home">
 			<div class="content">
@@ -87,7 +157,7 @@
                     <li>2 cups vanilla ice cream</li>
                     <li>2 tablespoons sugar</li>
                 </ul>
-				<div class="all-dtls-prt">
+				<!-- <div class="all-dtls-prt">
 					<ul>
 						<li><em class="fa fa-clock-o" aria-hidden="true"></em> Prep Time: <span>
 								<meta itemprop="prepTime" content="PT5M">5 mins.
@@ -98,11 +168,11 @@
 						<li>Total Time: <span>10 mins. </span></li>
 						<li>Yield: <span itemprop="recipeYield">10-12 pancakes</span></li>
 					</ul>
-				</div>
+				</div> -->
 			</div>
 
 			<div class="image">
-				<img src="images/16.png" alt="image not found" />
+				<img src="images/16-1.png" alt="image not found" />
 			</div>
 		</section>
 
